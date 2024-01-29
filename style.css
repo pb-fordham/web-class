@@ -1,0 +1,64 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(175, 212, 247);
+}
+/* comment for css stuff */
+h1 {
+    color: rgba(78, 178, 84, 0.25);
+    font-size: 60px;
+    background-color: yellow;
+}
+
+p {
+    font-size: 20px;
+    color: blue;
+    background-color: pink;
+    text-align: right;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+}
+h3 {
+    color: teal;
+}
+h4 {
+    color: purple;
+}
+h5 {
+    color: gray;
+}
+h6 {
+    color: brown;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(74, 168, 255);
+    text-decoration: underline;
+}
+a:visited {
+    color: gray;
+}
+a:visited:hover {
+    color: red;
+}
+hr {
+    border-top: 5px dotted rgb(174, 9, 9);
+    border-bottom: none;
+}
+ul {
+    list-style-type: none;
+    color: purple;
+}
+ul li {
+    display: inline;
+}
+ol li {
+    font-size: 14px;
+}
